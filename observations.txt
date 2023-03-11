@@ -1,0 +1,24 @@
+Observations:
+
+1. The plugin creates a custom post type "Products" with custom taxonomies "Brand" and "Category".
+2. It also defines custom fields for the "Products" post type.
+3. The plugin pulls data from an API and saves it as posts in the "Products" post type.
+4. It creates an archive template that lists down product posts as a grid using Bootstrap 5.3 grid.
+5. It provides a filter on the archive page to filter based on brand and category.
+6. I would estimate that if you are working only on this project then it should take around 6-8 hours to complete this project. This is the maximum time with respect to every testing ang different user experience.
+
+Notes:
+
+1. The plugin is well-structured and follows WordPress best practices.
+2. It uses the standard WordPress functions for creating custom post types, taxonomies, and fields.
+3. The use of Bootstrap 5.3 grid makes the archive template responsive and mobile-friendly.
+4. The actual time that It've take are double from the estimation because I was not working only a single project.
+5. I've trigger a cron job when plugin is activated. THrough this cron job It will import all the product from the API.
+
+Questions:
+
+1. What API endpoint is being used to fetch the data for the "Products" post type? Is it a public or private API?
+2. Are there any limitations on the number of posts that can be fetched from the API?
+3. Is there any way to modify the plugin to add more custom fields to the "Products" post type?
+4. Can the filter functionality be extended to include more filters or search functionality?
+5. Is their any data that can show in response and we've to ignore that?
